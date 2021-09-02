@@ -13,6 +13,9 @@ module.exports = {
     filename: "[name].bundle.js",
     path: __dirname + "/dist",
   },
+    devServer: {
+    static: './',
+  },
   module: {
     rules: [
       {
